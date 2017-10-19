@@ -1,0 +1,34 @@
+{
+  "name": "libprefs",
+  "version": "1.0.0",
+  "description": "Manage shared preferences inside browser",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ornorm/libprefs.git"
+  },
+  "keywords": [
+    "Base64",
+    "PreferenceChangeEvent",
+    "PreferenceChangeListener",
+    "Preferences",
+    "PreferencesFactory"
+  ],
+  "author": "Aime Biendo <abiendo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ornorm/libprefs/issues"
+  },
+  "homepage": "https://github.com/ornorm/libprefs#readme",
+  "dependencies": {
+    "eventslib": "^1.0.0",
+    "hjs-io": "^1.0.0",
+    "libhttp": "^1.0.0"
+  }
+}
